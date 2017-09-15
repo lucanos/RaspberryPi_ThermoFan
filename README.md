@@ -12,7 +12,7 @@ Python Script and Circuit to allow for your Raspberry Pi Fan to be triggered whe
 ### Express Installation
 
 1. Login to Device via SSH
-1. Run `sudo curl https://raw.githubusercontent.com/lucanos/RaspberryPi_ThermoFan/master/thermo_fan.py --output thermo_fan.py;sudo chmod +x thermo_fan.py;sudo update-rc.d thermo_fan.py defaults`
+1. Run `cd /etc/init.d;sudo curl https://raw.githubusercontent.com/lucanos/RaspberryPi_ThermoFan/master/thermo_fan.py --output thermo_fan.py;sudo chmod +x thermo_fan.py;sudo update-rc.d thermo_fan.py defaults;sudo reboot`
 
 ## Settings
 ### Pin
